@@ -1,0 +1,41 @@
+doc PFR - utilizar a métrica "defense.snap.rate" --> cornerbacks and safeties --> NFL Stats 2012-2024
+
+
+How are Madden ratings determined?
+The Madden Rating for each player is a composite of scores in 43 categories that each player is graded on and players are categorized as either rookies or veterans
+
+
+
+injuries csv. --> https://www.kaggle.com/datasets/jpmiller/nfl-competition-data
+
+PFR 2020 - Injuries --https://github.com/jchernak96/NFL-Injury-Data-PFR-/blob/master/Data/PFR_2020_Injuries.csv
+
+
+CSV - defense player stats --> https://www.kaggle.com/datasets/philiphyde1/nfl-stats-1999-2022?select=weekly_player_stats_defense.csv
+
+
+Analysis on type of injuries, type of field casualities --> https://www.kaggle.com/code/jaseziv83/an-analysis-of-nfl-injuries/report
+
+
+
+make the AI Agent crush the numbers daily and alert if there is a risk injury
+
+usar os standers do hilliard e quando houver outliers emite um alerta
+
+Dataset:
+tackle_with_assist + assist_tackle = Total_Assisted_Tackles
+
+
+previous injury:
+None - if its ACTIVE, HEALTHY, NONE, ACTIVE
+Minor - ACTIVE, HEALTHY OR DOUBTFULL OR QUESTIONABLE, ACTIVE AND HAS PLAYS
+Moderate - EVERYTHING BUT HEALTHY, AND NO STARTER BUT HAS PLAYS, OR ANY OTHER CONDITION
+Severe - INACTIVE OR INACTIVE
+
+
+index_defensive_effort = (1 * solo_tackle +
+       0.5 * assisted_tackles +
+       3 * sack +
+       2 * qb_hit +
+       4 * interception +
+       4 * fumble_forced) / total_snaps_played
