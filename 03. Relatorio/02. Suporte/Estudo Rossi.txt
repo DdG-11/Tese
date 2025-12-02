@@ -1,0 +1,10 @@
+notas suporte tese
+
+capitulo 2.3
+
+as stated per Rossi, "ML produced an accurate and interpretable injury-forecasting framework, offering “simple and practical rules” that practitioners could apply week-to-week. (Rossi et al., peer-reviewed PLOS ONE version)"
+
+so there already evidences that ML approaches for injury forecast may work, that is way we will start by doing so in out methodology - which is good
+
+in our case, after modelling analysis it seemed to not provide the best output, due to not tailored data for the system?? or missing data to provide accurate training for the model - but it is proven that works so if our model already works good imagine with the right data using the ML models (WHICH MODELS??) used in those studies (soccerguard)
+
